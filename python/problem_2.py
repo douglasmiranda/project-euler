@@ -10,8 +10,6 @@ By considering the terms in the Fibonacci sequence whose
 values do not exceed four million,
 find the sum of the even-valued terms.
 """
-# def fibo(n):
-# 	return fibo(n-1) + fibo(n-2) if n > 1 else 1
 
 sum = 0
 first = 0
