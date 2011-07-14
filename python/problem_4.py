@@ -9,8 +9,6 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 def is_palindrome(number):
 	string = str(number)
-	if len(string) == 0:
-		return True
-	return is_palindrome(string[1:-1]) if string[0] == string[-1] else False
+	return string == string[::-1]
 
-# print max([x*y for x in xrange(100,1000) for y in xrange(100,1000) if is_palindrome(x*y)])
+print max([x*y for x in xrange(100, 1000) for y in xrange(100, 1000) if is_palindrome(x*y)])
