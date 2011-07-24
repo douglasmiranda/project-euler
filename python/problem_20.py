@@ -7,5 +7,5 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 Find the sum of the digits in the number 100!
 """
 
-result = str(reduce(lambda a,b: a*b, xrange(10,1,-1)))
+result = str(reduce(lambda a,b: a*b, xrange(100,1,-1)))
 print sum([int(x) for x in result])
