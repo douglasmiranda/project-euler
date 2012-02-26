@@ -1,1 +1,3 @@
 Solving the problems from http://projecteuler.net
+
+Problems that used to be in /erlang now are moved to: https://github.com/douglasmiranda/project-euler-erlang
