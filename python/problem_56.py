@@ -12,9 +12,9 @@ Considering natural numbers of the form, a**b, where a, b < 100, what is the max
 factors = xrange(1,100)
 maximum = 0
 for x in factors:
-	for y in factors:
-		result = sum([int(z) for z in str(x**y)])
-		if result > maximum:
-			maximum = result
+    for y in factors:
+        result = sum([int(z) for z in str(x**y)])
+        if result > maximum:
+            maximum = result
 
 print maximum
